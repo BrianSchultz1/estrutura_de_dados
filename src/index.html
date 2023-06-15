@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simulador de Estruturas de Dados</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Simulador de Estruturas de Dados</h1>
+  
+  <div id="container">
+    <label for="structure-select">Escolha a estrutura de dados:</label>
+    <select id="structure-select">
+      <option value="fila">Fila</option>
+      <option value="pilha">Pilha</option>
+      <option value="lista">Lista</option>
+      <option value="arvore">Árvore</option>
+    </select>
+    
+    <div id="data-input">
+      <label for="data">Insira os dados (separados por vírgula):</label>
+      <input type="text" id="data" placeholder="Ex: 1, 2, 3">
+      <button id="simulate-button">Simular</button>
+    </div>
+    
+    <div id="output"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
